@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> To Do List </title>
+    <link rel="stylesheet" href="Final.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <script src="Final.js"></script>
+  </head>
+  <body onLoad="setDate(); setDate1(); setDate2(); setDate3();">
+    <header>
+    <div>
+      <h1> <img id="gif" src="GIF1.gif" alt="GIF image"> <i id="checklist1" class="fas fa-clipboard-list"></i> Things To Do <i id="checklist2" class="fas fa-clipboard-list"></i> </h1> <h4> by Nolan Sun for CSC450 </h4>
+    </div>
+    <nav>
+      <h3 class="Menu" onclick="All()"> All Items: </h3>
+      <h3 class="Menu" onclick="today()"> Items Due Today: </h3>
+      <h3 class="Menu" onclick="tomorrow()"> Items Due Tomorrow: </h3>
+      <h3 class="Menu" onclick="twoDays()"> Items Due In Two Days To A Week: </h3>
+      <h3 class="Menu" onclick="week()"> Items Due In More Than A Week: </h3>
+    </nav>
+    </header>
+    <main>
+    <h1 id="choose"> Choose what type of items you want to work on from the menu on the left: </h1>
+    <p id="date">Today</p><p class="addItem"> <i id="align" class="far fa-plus-square" onclick="addItemPrompt()"></i> </p>
+    <table id="toDoList">
+      <tr class="tr1">
+        <td class="td1"></td>
+        <td class="td1"></td>
+      </tr>
+      <tr class="tr1">
+        <td class="td1"></td>
+        <td class="td1"></td>
+      </tr>
+      <tr class="tr1">
+        <td class="td1"></td>
+        <td class="td1"></td>
+      </tr>
+    </table>
+    <p id="date1">Tomorrow</p><p class="addItem"> <i id="align1" class="far fa-plus-square" onclick="addItemPrompt1()"></i> </p>
+    <table id="toDoList1">
+      <tr class="tr2">
+        <td class="td2"></td>
+        <td class="td2"></td>
+      </tr>
+      <tr class="tr2">
+        <td class="td2"></td>
+        <td class="td2"></td>
+      </tr>
+      <tr class="tr2">
+        <td class="td2"></td>
+        <td class="td2"></td>
+      </tr>
+    </table>
+    <p id="date2">Two Days to a Week</p><p class="addItem"> <i id="align2" class="far fa-plus-square" onclick="addItemPrompt2()"></i> </p>
+    <table id="toDoList2">
+      <tr class="tr3">
+        <td class="td3"></td>
+        <td class="td3"></td>
+      </tr>
+      <tr class="tr3">
+        <td class="td3"></td>
+        <td class="td3"></td>
+      </tr>
+      <tr class="tr3">
+        <td class="td3"></td>
+        <td class="td3"></td>
+      </tr>
+    </table>
+    <p id="date3"> A Week or More </p><p class="addItem"> <i id="align3" class="far fa-plus-square" onclick="addItemPrompt3()"></i> </p>
+    <table id="toDoList3">
+      <tr class="tr4">
+        <td class="td4"></td>
+        <td class="td4"></td>
+      </tr>
+      <tr class="tr4">
+        <td class="td4"></td>
+        <td class="td4"></td>
+      </tr>
+      <tr class="tr4">
+        <td class="td4"></td>
+        <td class="td4"></td>
+      </tr>
+    </table>
+  </main>
+  </body>
+</html>

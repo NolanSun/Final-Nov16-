@@ -1,0 +1,197 @@
+body{
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fffdf7;
+  color: rgb(60,60,60);
+  font-family: 'Dancing Script', cursive;
+  margin-top: -20px;
+  padding-left: 0px;
+  margin-left: -10px;
+  padding-top: 0px;
+}
+
+header {
+  text-align: center;
+  margin-top: 0px;
+  width: 100%;
+  box-shadow: 5px 5px 5px blue;
+  background-color: lightyellow;
+  height: 80px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+h1{
+  font-size: 36px;
+}
+
+#choose{
+  font-size: 70px;
+  text-align: center;
+  padding-left: 0px;
+  padding-top: 50px;
+}
+
+h4{
+  float: right;
+  font-size: 18px;
+  margin-top: -10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+}
+
+#gif{
+  float:left;
+  width: 18%;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+nav {
+  float:left;
+  width: 20%;
+  clear:right;
+  padding-left: 10px;
+  border-right: 5px solid blue;
+  margin-top: -15px;
+  height: 420px;
+}
+
+h3{
+  border-bottom: 5px solid blue;
+  padding-bottom: 15px;
+}
+
+.checklist1 {
+  float: left;
+  color: blue;
+}
+
+.checklist2{
+  float: right;
+}
+
+#date{
+  float:left;
+  font-size:1.6em;
+  display:none;
+}
+
+#date1{
+  float:left;
+  font-size:1.6em;
+  display:none;
+}
+
+#date2{
+  float:left;
+  font-size:1.6em;
+  display:none;
+}
+
+#date3{
+  float:left;
+  font-size:1.6em;
+  display:none;
+}
+
+.addItem{
+   float:right;
+   font-size: 2em;
+   display: inline-block;
+   text-align: right;
+   height: 1.2em;
+}
+
+.addItem:hover{
+  color:rgb(0,0,200);
+  cursor: pointer;
+}
+
+td:last-child{
+  text-align:center;
+}
+
+main {
+  margin: 0 auto;
+  width: 75%;
+  float: right;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+table {
+  border-collapse: collapse;
+  width:100%;
+  margin-left: -30px;
+}
+
+td {
+  height: 2em;
+  border: 2px solid rgb(0,0,200);
+  font-size: 1.5em;
+  width: 500px;
+}
+
+td:first-child{
+  width:80%;
+}
+
+td:nth-child(an+b){
+  background-color:rgba(0,0,200,0.1);
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+#align {
+  display:none;
+  margin-right: 100px;
+  float:right;
+  clear:right;
+}
+
+#align1 {
+  display:none;
+  margin-right: 100px;
+  float:right;
+  clear:right;
+}
+
+#align2 {
+  display:none;
+  margin-right: 100px;
+  float:right;
+  clear:right;
+}
+
+#align3 {
+  display:none;
+  margin-right: 100px;
+  float:right;
+  clear:right;
+}
+
+#toDoList{
+  display:none;
+}
+
+#toDoList1{
+  display:none;
+}
+
+#toDoList2{
+  display:none;
+}
+
+#toDoList3{
+  display:none;
+}
+
+h3:hover{
+  color: red;
+  cursor: pointer;
+}
